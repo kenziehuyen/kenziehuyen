@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>favorites</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  padding: 5px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.text {
+  color: #1C9820;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.header {
+  background-color: #925DE6;
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+  color: #2DDD60;
+}
+
+body{
+  margin: 0px;
+  background-color: #925DE6;
+  color: #EA7A2E;
+ text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #925DE6;
+  text-align: center;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #5498EA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+#navbar a:hover {
+  background-color: #925DE6;
+  color: #E589E8;
+}
+
+#navbar a.active {
+  background-color: #925DE6;
+  color: #E589E8;
+  font-weight: bold;
+}
+
+.content {
+  padding: 2px;
+  text-align: center;
+  align-items: center;
+  background-color: #925DE6;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+body{
+  background: #925DE6;
+}
+.wrapper{
+  width: 1170px;
+  margin: 0 auto;
+}
+figure {
+  width: 32%;
+  float: left;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+
+.middle {
+  transition: all 0s ease;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #925DE6;
+}
+
+.container:hover .image {
+  opacity: 1;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h3>KENZIE HUYEN</he>
+</div>
+
+<div id="navbar">
+  <a class="nav-link" href="../CODE/PAGEONE.html">HOME</a>
+  <a class="nav-link" href="../CODE/pictures.html">PHOTOS</a>
+  <a class="nav-link active text-primary" aria-current="page" href="../CODE/blog.html">FAVORITES</a>
+  <a class="nav-link" href="../CODE/contact.html">CONTACT ME</a>
+</div>
+
+<div class="content">
+  <h3>SOME OF MY FAVORITE THINGS</h3>
+</div>
+
+<div class="row">
+
+      <div class="container">
+        <img src="../images/PINKPURSE.JPG 2.png"alt ="FAVORITE PURSE RIGHT NOW" width="200" height ="200">
+       <div class="middle">
+        <img src="../images/OPENPURSE.png" alt="messy bag" width="200" height ="200">
+      </div>
+      </div>
+
+      <div class="container">
+        <img src="../images/KEYS1.png" alt ="KEYS TO MY PLACE"width="200" height ="200">
+        <div class="middle">
+        <img src="../images/KEYS2.png" alt="keys to my place" width="200" height ="200">
+      </div>
+      </div>
+
+      <div class="container">
+        <img src="../images/wall.jpeg" alt ="MY WALL"width="200" height ="200">
+      <div class="middle">
+        <img src="../images/walllight.jpeg" alt="lights on" width="200" height ="200">
+      </div>
+      </div>
+</div>
+
+<div class="row">
+  <div class="container">
+    <img src="../images/slip.png"alt ="COMFY COZY"width="200" height ="200">
+  <div class="middle">
+    <img src="../images/slip2.png" alt="i love this color" width="200" height ="200">
+  </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/bed.jpeg" alt ="COZY BED"width="200" height ="200">
+  <div class="middle">
+    <img src="../images/bed2.jpeg" alt="comfy cozy" width="200" height ="200">
+  </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/glossier.png" alt ="HOW I SMELL"width="200" height ="200">
+  <div class="middle">
+    <img src="../images/Aquaphor.png" alt="use everyday" width="200" height ="200">
+  </div>
+  </div>
+</div> 
+
+<div class="row">
+  <div class="container">
+    <img src="../images/robe.png" alt ="FAV ROBE"width="200" height ="200">
+  <div class="middle">
+    <img src="../images/robe2.png" alt="live in this" width="200" height ="200">
+  </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/CHRISTMAS.JPG" alt ="I LOVE ATER"width="200" height ="200">
+  <div class="middle">
+    <img src="../images/CHRIST.JPG" alt="drink up" width="200" height ="200">
+  </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/animals2.png"alt ="FRIENDS ON BED"width="200" height ="200">
+  <div class="middle">
+    <img src="../images/stuffed.png" alt="i never sleep with these" width="200" height ="200">
+  </div>
+  </div>
+
+
+</div>
+</div>
+
+</body>
+</html>

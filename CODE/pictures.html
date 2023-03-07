@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>image gallery</title>
+<style>
+     #gallery {
+    line-height:0;
+    -webkit-column-count:3; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:3;
+    -moz-column-gap:5px;
+    column-count:3;
+    column-gap:5px;
+ }#gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+}
+@media (max-width: 1200px) {
+   #gallery {
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
+   }
+}
+.header {
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+#content{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #5498EA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: #E589E8;
+}
+
+#navbar a.active {
+  background-color: white;
+  
+  color: #E589E8;
+  font-weight: bold;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h3>KENZIE HUYEN</h3>
+</div>
+
+<div id="navbar">
+  <a href="../CODE/PAGEONE.html" class="nav-link" >HOME</a>
+  <a class="nav-link active text-primary" aria-current="page" href="../CODE/pictures.html">PHOTOS</a>
+ 
+  <a class="nav-link" href="../CODE/contact.html">CONTACT ME</a>
+</div>
+
+<div id="content">
+  <h3>SOME OF MY FAVORITES</h3>
+
+</div>
+<div id="gallery">
+  
+    <img src="../images/TWINSGAME.JPG">
+    <img src="../images/AIRBNB.JPG">
+    <img src="../images/JONAH-AWAY.JPG">
+    <img src="../images/david&conor.jpg">
+    <img src="../images/PARTY.JPG">
+    <img src="../images/everyone.jpg">
+    <img src="../images/LJ.JPG">
+    <img src="../images/ANDIEANDRUBY.JPG">
+    <img src="../images/RUBY.JPG">
+    <img src="../images/CHARLIE.JPG">
+    <img src="../images/GARAGE.JPG">
+    <img src="../images/hannah.JPG">
+    <img src="../images/PRIMOLJPA.JPG">
+    <img src="../images/KITGARAGE.png">
+    <img src="../images/HOF.JPG">
+    <img src="../images/BALOON.JPG">
+    <img src="../images/LUCYABROAD.JPG">
+    <img src="../images/kids.JPG">
+    <img src="../images/LOBSTER.JPG">
+    <img src="../images/MPLS.JPG">
+    <img src="../images/ALLEY.JPG">
+    <img src="../images/moandjonah.JPG">
+    <img src="../images/JOSH.JPG">
+    <img src="../images/POOL.JPG">
+ 
+ </div>
+
+</body>
+</html>
