@@ -76,7 +76,7 @@ p {
       </div>
       
       <div id="navbar">
-        <a class="nav-link" href="../CODE/PAGEONE.html">HOME</a>
+        <a class="nav-link" href="../CODE/index.html">HOME</a>
         <a class="nav-link" href="../CODE/pictures.html">PHOTOS</a>
 
         <a class="nav-link active text-primary" aria-current="page" href="../CODE/contact.html">CONTACT ME</a>
