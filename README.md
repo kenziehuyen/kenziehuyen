@@ -230,7 +230,7 @@ function showSlides() {
   <h4>I enjoy working creatively with others. </h4>
 
 </body>
-</html> 
+
 
 
 </body>
