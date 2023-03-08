@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -225,7 +225,7 @@ function showSlides() {
   setTimeout(showSlides, 6000); // Change image every 6 seconds
 }
 </script>
-<p>I study New Media and Digital Design with a <br></br>
+<p>I study New Media and Digital Design with a <br>
   concentration in Art, Text, and Design. </p>
   <h4>I enjoy working creatively with others. </h4>
 
@@ -234,4 +234,4 @@ function showSlides() {
 
 
 </body>
-</html> 
+
